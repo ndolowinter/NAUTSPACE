@@ -1,0 +1,62 @@
+{
+  "name": "orbitspacesafari",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NautSpace International. Space systems, aerospace discovery and national science center platform for Space Exploration in Africa.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@supabase/ssr": "^0.12.3",
+    "@supabase/supabase-js": "^2.45.0",
+    "@tanstack/react-query": "^5.51.15",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "framer-motion": "^11.3.19",
+    "gsap": "^3.12.5",
+    "leaflet": "^1.9.4",
+    "next": "^14.2.5",
+    "otplib": "^12.0.1",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.2",
+    "react-leaflet": "^4.2.1",
+    "tailwind-merge": "^2.4.0",
+    "typescript": "^5.5.4",
+    "viem": "^2.19.0",
+    "wagmi": "^2.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "^20.14.13",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "tailwindcss-animate": "^1.0.7",
+    "vitest": "^2.0.5"
+  },
+  "allowScripts": {
+    "bufferutil@4.1.0": true,
+    "esbuild@0.21.5": true,
+    "keccak@3.0.4": true,
+    "unrs-resolver@1.12.2": true,
+    "utf-8-validate@5.0.10": true
+  }
+}
